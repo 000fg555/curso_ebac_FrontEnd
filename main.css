@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgb(75, 72, 72);
+    padding: 16px 0;
+    color: rgb(245, 244, 244);
+}
+
+body > header h1 {
+    font-size: 36px;
+}
+
+header li {
+    display: inline;
+    margin-left: 18px;
+}
+
+header li a {
+    color: rgb(245, 244, 244);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+section .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles p {
+    text-align: justify;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin: 8px 0;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: rgb(71, 65, 65);
+    padding: 6px;
+    margin-top: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(9, 25, 255, 0.096);
+}
+
+#sports .articles article a {
+    background-color: rgba(9, 25, 255, 0.473);
+}
+
+#sports .articles article a:hover {
+    background-color: rgba(5, 16, 163, 0.555);
+}
+
+#economy {
+    background-color: rgba(0, 255, 0, 0.13);
+}
+
+#economy .articles article a {
+    background-color: rgb(132, 218, 199);
+}
+
+#economy .articles article a:hover {
+    background-color: rgb(94, 177, 159);
+}
+
+#technology {
+    background-color: rgba(251, 255, 0, 0.205);
+}
+
+#technology .articles article a {
+    background-color: rgba(251, 255, 2, 0.5);
+}
+
+#technology .articles article a:hover {
+    background-color: rgba(140, 143, 0, 0.699);
+}
+
+#entertainment {
+    background-color: rgba(255, 0, 0, 0.096);
+}
+
+#entertainment .articles article a {
+    background-color: rgba(255, 2, 2, 0.281);
+}
+
+#entertainment .articles article a:hover {
+    background-color: rgba(255, 2, 2, 0.568);
+}
